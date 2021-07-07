@@ -3,12 +3,12 @@ version: 2.1
 executors:
   arm64:
     machine:
-      image: ubuntu-2004:202101-01
+      image: ubuntu-2004:202104-01
       docker_layer_caching: true
     resource_class: arm.medium
   x86_64:
     machine:
-      image: ubuntu-2004:202101-01
+      image: ubuntu-2004:202104-01
       docker_layer_caching: true
     resource_class: medium
 
