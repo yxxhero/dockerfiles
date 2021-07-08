@@ -19,7 +19,6 @@ RUN ARCH="$(apk --print-arch)" \
             ;; \
         esac \
     && apk add --no-cache bash \
-    && apk add --no-cache bash \
     && wget $GOSS_URL -O /usr/local/bin/goss \
     && wget "https://github.com/aelsabbahy/goss/releases/download/v${GOSS_VERSION}/dgoss" -O /usr/local/bin/dgoss \
     && chmod +rx /usr/local/bin/goss /usr/local/bin/dgoss
